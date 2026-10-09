@@ -1,0 +1,19 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/doctors/
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Meera\",\r
+
+    \  \"email\": \"meera@hospital.com\",\r
+
+    \  \"specialization\": \"Cardiology\",\r
+
+    \  \"phone\": \"9000000000\",\r
+
+    \  \"experience_years\": 10\r
+
+    }"
+order: 3000

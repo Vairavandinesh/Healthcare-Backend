@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+.venv/
+
+# Secrets (never commit these)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local database files
+db.sqlite3
+
+# Editor settings
+.idea/
+.vscode/
+
+# Postman local workspace data
+.postman/

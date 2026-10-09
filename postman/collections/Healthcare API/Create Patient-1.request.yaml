@@ -1,0 +1,22 @@
+$kind: http-request
+name: Create Patient
+url: http://127.0.0.1:8000/api/patients/
+method: POST
+body:
+  type: json
+  content: "   {\r
+
+    \     \"name\": \"Ravi\",\r
+
+    \     \"age\": 34,\r
+
+    \     \"gender\": \"M\",\r
+
+    \     \"phone\": \"9876543210\",\r
+
+    \     \"address\": \"Pondicherry\",\r
+
+    \     \"medical_history\": \"Diabetes\"\r
+
+    \   }"
+order: 1000
